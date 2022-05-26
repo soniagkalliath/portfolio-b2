@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px 2px gray;
+}
+
+/* Pseudo Classes - syntax: selector:pseudo-class{property:value} */
+.links:hover{
+font-size:30px ;
+text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    /* to get ombre effect to background use linear-gradient() */
+    background: linear-gradient(aqua,aquamarine);
+    color: rgb(39, 17, 235);
+}
+.profile{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+#name{
+    font-size: 60px;
+    line-height: 1.6;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+}
+#bio{
+    padding: 50px;
+    font-family: 'Noto Serif', serif;
+}
+.line{
+    height: 6px;
+    background-color: darkblue;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: darkblue;
+}
+
+#contact{
+    background-color: firebrick;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
